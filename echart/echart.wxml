@@ -1,0 +1,5 @@
+<!--tabnav/echart/echart.wxml-->
+<view class ='bg'>
+<canvas canvas-id='chart' id = "chart" class=''  style="width:750rpx;height: 200px;" bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend" ></canvas>
+<!-- <canvas canvas-id='chart2' id = "chart2" class=''  style="width:750rpx;height: 200px;" bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend" ></canvas> -->
+</view>

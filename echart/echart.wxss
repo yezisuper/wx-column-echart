@@ -1,0 +1,18 @@
+/* tabnav/echart/echart.wxss */
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.bg{
+ width:732rpx;
+display:inline-flex;
+justify-content:space-between;
+text-align:left;
+height:62rpx;
+line-height:62rpx;
+/* background-color:#48B5EE; */
+color:#fff;
+border-top-right-radius:16rpx;
+border-top-left-radius:16rpx;
+
+}
