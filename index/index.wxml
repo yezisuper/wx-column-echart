@@ -1,0 +1,9 @@
+<view class="container">
+  <view class='homebox'>   
+    <view class="title">
+      <view>{{chartTitle}}(套)</view>
+      <view class='side_r'>统计维度：<view wx:for="{{statimes}}" bindtap='changeSales' data-navon="{{index}}" class="{{index==navon?'on':''}}">{{item}}</view></view> 
+    </view>
+    <canvas canvas-id="columnCanvas" class="canvas"  data-id="columnCanvas"  bindtouchstart="touchstartSales" bindtouchmove="touchmoveSales" bindtouchend="touchendSales"></canvas>
+  </view> 
+</view>
